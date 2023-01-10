@@ -4,8 +4,8 @@ require_once __DIR__ . "/../Product.php";
 
 class Kennel extends Product{
 
-    private $dimension;
-    private $washable;
+    public $dimension;
+    public $washable;
 
     public function __construct(string $_title, string $_desc, float $_price, Category $_type, string $_dimension, bool $_washable)
     {

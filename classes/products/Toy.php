@@ -4,8 +4,8 @@ require_once __DIR__ . "/../Product.php";
 
 class Toy extends Product{
 
-    private $dimension;
-    private $material;
+    public $dimension;
+    public $material;
 
     public function __construct(string $_title, string $_desc, float $_price, Category $_type, string $_dimension, string $_material)
     {

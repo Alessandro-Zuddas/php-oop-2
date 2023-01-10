@@ -4,10 +4,10 @@ require_once __DIR__ . "/Category.php";
 
 class Product{
 
-    protected $title;
-    protected $desc;
-    protected $price;
-    protected $type;
+    public $title;
+    public $desc;
+    public $price;
+    public $type;
 
 }
 

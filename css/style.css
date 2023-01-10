@@ -10,4 +10,9 @@
 
 /* COMMON */
 
+.product-card{
+    padding: .625rem .625rem;
+    background-color: bisque;
+}
+
 /* /COMMON */
